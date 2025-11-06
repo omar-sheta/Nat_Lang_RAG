@@ -1,0 +1,17 @@
+# Exclude large data files
+data/squad_prepared/
+*.npy
+*.index
+
+# Exclude large media files
+*.mp4
+*.pdf
+
+# Exclude system files
+.DS_Store
+
+# Exclude environment files
+.env
+
+# Exclude proposal folder
+proposal/
